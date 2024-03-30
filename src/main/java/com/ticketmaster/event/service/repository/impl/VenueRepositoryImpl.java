@@ -14,7 +14,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-@Component //----------? is this right
+@Component
 public class VenueRepositoryImpl implements VenueRepository {
 
     private final Logger logger = LoggerFactory.getLogger(VenueRepositoryImpl.class);

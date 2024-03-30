@@ -86,7 +86,7 @@ public class ArtistServiceImpl implements ArtistService {
 
     private List<EventInfo> convertEventToEventInfo(List<Event> events) {
         return events.stream()
-                .map(validationUtil::convertEventToEventInfo) // Map Event objects to EventInfo objects
+                .map(validationUtil::convertEventToEventInfo)
                 .collect(Collectors.toList());
     }
 }

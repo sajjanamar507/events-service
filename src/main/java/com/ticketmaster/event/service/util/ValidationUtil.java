@@ -23,7 +23,6 @@ public class ValidationUtil {
     }
 
     public EventInfo convertEventToEventInfo(Event event) {
-        // Create a new Event object and populate its properties from the corresponding EventInfo
         return EventInfo.builder().id(event.getId())
                 .timeZone(event.getTimeZone())
                 .title(event.getTitle())

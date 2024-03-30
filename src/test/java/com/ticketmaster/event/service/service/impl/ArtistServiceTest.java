@@ -20,7 +20,6 @@ import reactor.test.StepVerifier;
 import java.util.*;
 
 import static org.mockito.ArgumentMatchers.*;
-//import static org.mockito.Mockito.mockStatic;
 import static org.mockito.Mockito.when;
 
 public class ArtistServiceTest {
@@ -51,7 +50,6 @@ public class ArtistServiceTest {
         Artist artist = TestUtils.buildArtist();
         Venue venue = TestUtils.buildVenue();
         Event event = TestUtils.buildEvent();
-        EventInfo eventOutput = TestUtils.buildEventInfo();
         List<Event> events = Collections.singletonList(event);
         List<Venue> venues = Collections.singletonList(venue);
         ArtistInfo expectedArtistInfo = TestUtils.buildArtistInfo();
